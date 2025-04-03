@@ -36,7 +36,7 @@ Any additional parameters are passed directly to Gurobi. For example:
 
 This command extracts the backbone of `<instanceFile>`, using:  
 - 4 threads  
-- A 1-hour time limit (applied only to Gurobi's internal execution, not GuroBack itself)  
+- A 1-hour time limit (applied to each Gurobi call, not GuroBack itself)  
 - Tolerances set to `1e-9`  
 
 ### Specifying the Optimum  
